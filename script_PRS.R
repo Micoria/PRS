@@ -145,9 +145,9 @@ beta_auto <- results[["beta_auto"]]
 
 # Example of how to call your function
 results <- PRSAnalysis(
-  reference_data_path = "/home/shizh/research/tmp/prs/output/hapmap3_snp/hapmap3_snp.RDATA",
-  summary_statistics_path = "/home/shizh/research//GIGASTROKE2022/stroke_Any.std",
-  gene_data_path = "/home/shizh/research/PRS/rawData/IMPROVE_after_qc.endotype.bed",
-  outputDir = "/home/shizh/research/tmp/tmp_dir/"
+  reference_data_path = "data/hapmap3_snp.RDATA",
+  summary_statistics_path = "data/stroke_Any.std",
+  gene_data_path = "data/genotype.bed",
+  outputDir = "/output/"
 )
 
