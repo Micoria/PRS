@@ -278,11 +278,11 @@ defensive_PRS <- function(path_reference,path_GWAS,path_genotype,path_temp){
 }
 rm(PRS)
 PRS <- defensive_PRS(
-  path_reference = "/home/shizh/research/IMPROVE/Data/hapmap3_snp.RDATA",
-  path_GWAS = "/home/shizh/research/IMPROVE/Data/GWAS/GIGASTROKE2022/stroke_LargeAtery.std",
-  path_genotype = "/home/shizh/research/SCAPIS/rawData/SCAPIS_endotype/SCAPIS_after_qc.endotype.rds",
-  path_temp = "/home/shizh/research/tmp/tmp_dir"
+  path_reference = "/home/XXXXX.RDATA",
+  path_GWAS = "/home/XXXXXXX.std",
+  path_genotype = "/home/XXXXXXX.rds",
+  path_temp = "/home/XXXXX"
 )
 
-fwrite(PRS, file = "/home/shizh/research/SCAPIS/LDpred2/output/PRS/SCA_PRS_LargeArteryStroke.tsv",
+fwrite(PRS, file = "/home/XXXXXX.tsv",
        sep = "\t",quote = F)
