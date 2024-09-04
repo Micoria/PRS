@@ -275,14 +275,14 @@ defensive_huge_PRS <- function(path_reference,path_GWAS,path_genotype,path_corr0
   head(PRS)
 }
 PRS <- defensive_huge_PRS(
-   path_reference = "/home/shizh/research/IMPROVE/Data/hapmap3_snp.RDATA",
-   path_GWAS = "/home/shizh/research/IMPROVE/Data/GWAS/CARDioGRAMplusC4D2022/cad.std",
-   path_genotype = "/home/shizh/research/SCAPIS/rawData/SCAPIS_endotype/SCAPIS_after_qc.endotype.rds",
-   path_corr0 = "/home/shizh/research/SCAPIS/chr/cad",
-   path_temp = "/home/shizh/research/tmp/tmp_dir"
+   path_reference = "/home/XXXXXX.RDATA",
+   path_GWAS = "/home/XXXXXX.std",
+   path_genotype = "/home/XXXXX.rds",
+   path_corr0 = "/home/XXX/cad",
+   path_temp = "/home/XXX/tmp/tmp_dir"
     )
   
-fwrite(PRS, file = "/home/shizh/research/SCAPIS/LDpred2/output/SCA_PRS_cad.tsv",
+fwrite(PRS, file = "/home/XXX.tsv",
        sep = "\t",quote = F)
 
 
